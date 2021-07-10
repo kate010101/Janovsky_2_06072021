@@ -1,0 +1,50 @@
+@font-face 
+{
+    font-family: 'static/Raleway-Regular.ttf';
+    src: url('static/Raleway-Regular.ttf') format('truetype');
+}
+
+p
+{
+    font-family: 'static/Raleway-Regular.ttf';
+}
+
+                                                    /*Header*/
+#containerheader
+{
+display: flex;
+margin: 70px;
+}
+
+.menu
+{
+    order: 2;
+}
+
+.presentation
+{
+    order: 1;
+}
+
+
+
+                                /*Menu*/
+nav ul
+{
+list-style-type: none;
+display: flex;
+}
+
+li
+{
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
+nav
+{
+    position: absolute;
+    margin-left: 20%;
+}
+
+@media all and (min-width: 992px) and (max-width: 1600px)
