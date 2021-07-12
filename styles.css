@@ -10,6 +10,11 @@
     src: url('Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
+}
+
 *
 {
     font-family: "Raleway";
@@ -17,7 +22,7 @@
 
 nav, h1, h2, h3, h4, h5, h6
 {
-    font-family: "Raleway-ExtraBold";
+    font-family: "Raleway-Bold";
 }
 
 
@@ -56,20 +61,28 @@ h2
 p
 {
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
                                                     /*Formulaire*/
 
+form
+{
+    margin-left: 18px;
+}
+
 .formulaire1
 {
-    font-size: 15px;
-    margin-left: 15px;
+    font-size: 18px;
+    margin-left: 34px;
+    font-family: "Raleway-Bold";
+    border: none;
 }
 
 .formulaire2
 {
-    font-size: 15px;
-    margin-left: 15px;
+    font-size: 16px;
+    font-family: "Raleway";
 }
 
 i
@@ -81,6 +94,14 @@ input[type="button" i]
 {
     color: white;
     background-color: #0065fc;
+    border-radius: 0px 13px 13px 0px;
+    height: 48px;
+    width: 130px;
+    font-family: "Raleway";
+    font-weight: bold;
+    border: none;
+    letter-spacing: 0.05em;
+    margin-left: 5px;
 }
 
                                                      /*Menu*/
@@ -104,12 +125,13 @@ nav
 .menu
 {
     margin-left: 250px;
+    margin-top: 2px;
 }
 
 .inscrire
 {
-    font-weight: bold;
     color: #0065fc;
+    font-family: "Raleway-Bold";
 }
 
 a
@@ -120,6 +142,8 @@ a
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 a:hover
