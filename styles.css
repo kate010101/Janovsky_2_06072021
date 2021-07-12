@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "Raleway-Bold";
-    src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
+    font-family: "Raleway-ExtraBold";
+    src: url('Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
 }
 
 *
@@ -17,13 +17,16 @@
 
 nav, h1, h2, h3, h4, h5, h6
 {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-ExtraBold";
 }
+
+
                                                     /*Header*/
-#containerheader
+.containerheader
 {
 display: flex;
-margin: 70px;
+margin-top: 8px;
+margin-left: 100px;
 }
 
 .menu
@@ -36,6 +39,24 @@ margin: 70px;
     order: 1;
 }
 
+.logo
+{
+    float: none;
+    margin-left: 0px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+h2
+{
+    font-size: 22px;
+    height: 15px;
+}
+
+p
+{
+    font-size: 16px;
+}
 
 
                                                      /*Menu*/
@@ -47,15 +68,39 @@ display: flex;
 
 li
 {
-   padding-left: 15%;
-   padding-right: 15%;
+   font-size: 40px;
 }
 
 nav
 {
+    float: right;
     position: absolute;
-    margin-left: 20%;
-    font-weight: bold;
 }
 
-@media all and (min-width: 992px) and (max-width: 1600px)
+.menu
+{
+    margin-left: 250px;
+}
+
+.inscrire
+{
+    font-weight: bold;
+    color: #0065fc;
+}
+
+a
+{
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a:hover
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+
