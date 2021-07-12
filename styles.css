@@ -1,14 +1,24 @@
-@font-face 
-{
-    font-family: 'static/Raleway-Regular.ttf';
-    src: url('static/Raleway-Regular.ttf') format('truetype');
+                                                      /*Police*/
+
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
 }
 
-p
-{
-    font-family: 'static/Raleway-Regular.ttf';
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
 }
 
+*
+{
+    font-family: "Raleway";
+}
+
+nav, h1, h2, h3, h4, h5, h6
+{
+    font-family: "Raleway-Bold";
+}
                                                     /*Header*/
 #containerheader
 {
@@ -28,7 +38,7 @@ margin: 70px;
 
 
 
-                                /*Menu*/
+                                                     /*Menu*/
 nav ul
 {
 list-style-type: none;
@@ -45,6 +55,7 @@ nav
 {
     position: absolute;
     margin-left: 20%;
+    font-weight: bold;
 }
 
 @media all and (min-width: 992px) and (max-width: 1600px)
