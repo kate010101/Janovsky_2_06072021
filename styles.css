@@ -58,6 +58,30 @@ p
     font-size: 16px;
 }
 
+                                                    /*Formulaire*/
+
+.formulaire1
+{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.formulaire2
+{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+i
+{
+    font-size: 18px;
+}
+
+input[type="button" i]
+{
+    color: white;
+    background-color: #0065fc;
+}
 
                                                      /*Menu*/
 nav ul
