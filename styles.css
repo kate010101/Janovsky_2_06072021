@@ -85,6 +85,11 @@ form
     font-family: "Raleway";
 }
 
+::placeholder
+{
+    color: black;
+}
+
 i
 {
     font-size: 18px;
