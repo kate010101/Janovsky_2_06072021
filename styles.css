@@ -20,10 +20,11 @@
     font-family: "Raleway";
 }
 
-nav, h1, h2, h3, h4, h5, h6
+nav, h1, h2
 {
     font-family: "Raleway-Bold";
 }
+
 
 
                                                     /*Header*/
@@ -38,6 +39,8 @@ flex-wrap: wrap;
 {
     order: 2;
     flex-wrap: wrap;
+    padding-right: 110px;
+    padding-left: 110px;
 }
 
 .presentation
@@ -86,7 +89,7 @@ form
 
 .formulaire2
 {
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Raleway";
 }
 
@@ -95,12 +98,12 @@ form
     color: black;
 }
 
-i
+.fa.fa-map-marker
 {
     font-size: 18px;
 }
 
-input[type="button" i]
+input[type="button" i].formulaire2
 {
     color: white;
     background-color: #0065fc;
@@ -161,3 +164,160 @@ a:hover:not(.inscrire)
     border-top: 2px solid #0065fc;
 }
 
+                                                        /*Filtres*/
+.filtres
+{
+    margin-top: 35px;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+.filtre
+{
+    font-family: "Raleway-ExtraBold";
+    padding-right: 38px;
+}
+
+.fa-money-bill-wave
+{
+    color: #0065fc;
+    font-size: 17px;
+    background-color: rgba(222,235,255,1);
+    border-radius: 100%;
+    padding-top: 14px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 14px;
+}
+
+input[type="button" i].economique
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 1px 30px 30px 2px;
+    padding: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-left: none;
+    margin-left: -15px;
+}
+
+input[type="button" i].familial
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 1px 30px 30px 2px;
+    padding: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-left: none;
+    margin-left: -15px;
+}
+
+.fas.fa-child
+{
+    color: #0065fc;
+    font-size: 17px;
+    background-color: rgba(222,235,255,1);
+    border-radius: 100%;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
+
+input[type="button" i].familial
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 3px 30px 30px 3px;
+    padding: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-left: none;
+    margin-left: -15px;
+}
+
+.fas.fa-child
+{
+    color: #0065fc;
+    font-size: 17px;
+    background-color: rgba(222,235,255,1);
+    border-radius: 100%;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
+
+input[type="button" i].romantique
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 3px 30px 30px 3px;
+    padding: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-left: none;
+    margin-left: -15px;
+}
+
+.fas.fa-heart
+{
+    color: #0065fc;
+    font-size: 17px;
+    background-color: rgba(222,235,255,1);
+    border-radius: 100%;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
+
+input[type="button" i].animaux
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 3px 30px 30px 3px;
+    padding: 11px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 16px;
+    border-left: none;
+    margin-left: -15px;
+}
+
+.fas.fa-dog
+{
+    color: #0065fc;
+    font-size: 17px;
+    background-color: rgba(222,235,255,1);
+    border-radius: 100%;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
