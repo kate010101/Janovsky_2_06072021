@@ -29,20 +29,24 @@ nav, h1, h2, h3, h4, h5, h6
                                                     /*Header*/
 .containerheader
 {
-display: flex;
 margin-top: 8px;
 margin-left: 100px;
+flex-wrap: wrap;
 }
 
 .menu
 {
     order: 2;
+    flex-wrap: wrap;
 }
 
 .presentation
 {
     order: 1;
+    flex-wrap: wrap;
 }
+
+
 
 .logo
 {
@@ -55,13 +59,14 @@ margin-left: 100px;
 h2
 {
     font-size: 22px;
-    height: 15px;
+    margin-bottom: 7px;
 }
 
 p
 {
     font-size: 16px;
     margin-bottom: 20px;
+    margin-top: 7px;
 }
 
                                                     /*Formulaire*/
@@ -124,7 +129,6 @@ li
 nav
 {
     float: right;
-    position: absolute;
 }
 
 .menu
