@@ -198,6 +198,39 @@ a:hover:not(.inscrire)
     margin-top: -2px;
     margin-bottom: -2px;
 }
+
+.economique:hover
+{
+    color: #0065FC;
+    border: black solid 2px;
+    border-left: none;
+    box-shadow: silver 4px 4px;
+}
+
+.romantique:hover
+{
+    color: #0065FC;
+    border: black solid 2px;
+    border-left: none;
+    box-shadow: silver 4px 4px;
+}
+
+.familial:hover
+{
+    color: #0065FC;
+    border: black solid 2px;
+    border-left: none;
+    box-shadow: silver 4px 4px;
+}
+
+.animaux:hover
+{
+    color: #0065FC;
+    border: black solid 2px;
+    border-left: none;
+    box-shadow: silver 4px 4px;
+}
+
 .animaux
 {
     min-width: 190px;
