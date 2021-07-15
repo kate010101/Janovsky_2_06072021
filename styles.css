@@ -172,6 +172,7 @@ a:hover:not(.inscrire)
     font-size: 16px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .filtre
@@ -200,10 +201,26 @@ a:hover:not(.inscrire)
     padding-left: 28px;
     margin-left: -18px; 
 }
-
 .animaux
 {
     min-width: 190px;
+    order: 5;
+}
+.romantique
+{
+    order: 4;
+}
+.familial
+{
+    order: 3;
+}
+.economique
+{
+    order: 2;
+}
+.filtre
+{
+    order: 1;
 }
 
 .eco, .famil, .roman, .anim
@@ -213,7 +230,9 @@ a:hover:not(.inscrire)
     flex-wrap: nowrap;
     max-height: 42px;
     margin-right: 20px;
+    margin-bottom: 8px;
 }
+
 
 .fa-money-bill-wave
 {
@@ -254,3 +273,6 @@ a:hover:not(.inscrire)
     padding: 12px;
     margin-right: 0px;
 }
+
+                                                    /*Bulle info*/
+
