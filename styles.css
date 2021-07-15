@@ -72,6 +72,7 @@ p
     margin-top: 7px;
 }
 
+
                                                     /*Formulaire*/
 
 form
@@ -169,13 +170,49 @@ a:hover:not(.inscrire)
 {
     margin-top: 35px;
     font-size: 16px;
-    margin-left: -10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .filtre
 {
     font-family: "Raleway-ExtraBold";
-    padding-right: 38px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 28px;
+    margin-left: -18px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.animaux, .romantique, .familial, .economique
+{
+    color: black;
+    background-color: rgba(255,255,255,0);
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    border: rgba(92,91,91,0.23) solid 2px;
+    border-radius: 3px 30px 30px 3px;
+    border-left: none;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 28px;
+    margin-left: -18px; 
+}
+
+.animaux
+{
+    min-width: 190px;
+}
+
+.eco, .famil, .roman, .anim
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: 42px;
+    margin-right: 20px;
 }
 
 .fa-money-bill-wave
@@ -184,42 +221,8 @@ a:hover:not(.inscrire)
     font-size: 17px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
-    padding-top: 14px;
-    padding-right: 12px;
-    padding-left: 12px;
-    padding-bottom: 14px;
-}
-
-input[type="button" i].economique
-{
-    color: black;
-    background-color: rgba(255,255,255,0);
-    font-family: "Raleway-ExtraBold";
-    font-size: 16px;
-    border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 1px 30px 30px 2px;
-    padding: 11px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 16px;
-    border-left: none;
-    margin-left: -15px;
-}
-
-input[type="button" i].familial
-{
-    color: black;
-    background-color: rgba(255,255,255,0);
-    font-family: "Raleway-ExtraBold";
-    font-size: 16px;
-    border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 1px 30px 30px 2px;
-    padding: 11px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 16px;
-    border-left: none;
-    margin-left: -15px;
+    padding: 12px;
+    margin-right: 0px;
 }
 
 .fas.fa-child
@@ -228,56 +231,8 @@ input[type="button" i].familial
     font-size: 17px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
-    padding-top: 12px;
-    padding-right: 14px;
-    padding-left: 14px;
-    padding-bottom: 12px;
-    margin-left: 20px;
-}
-
-input[type="button" i].familial
-{
-    color: black;
-    background-color: rgba(255,255,255,0);
-    font-family: "Raleway-ExtraBold";
-    font-size: 16px;
-    border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 3px 30px 30px 3px;
-    padding: 11px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 16px;
-    border-left: none;
-    margin-left: -15px;
-}
-
-.fas.fa-child
-{
-    color: #0065fc;
-    font-size: 17px;
-    background-color: rgba(222,235,255,1);
-    border-radius: 100%;
-    padding-top: 12px;
-    padding-right: 14px;
-    padding-left: 14px;
-    padding-bottom: 12px;
-    margin-left: 20px;
-}
-
-input[type="button" i].romantique
-{
-    color: black;
-    background-color: rgba(255,255,255,0);
-    font-family: "Raleway-ExtraBold";
-    font-size: 16px;
-    border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 3px 30px 30px 3px;
-    padding: 11px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 16px;
-    border-left: none;
-    margin-left: -15px;
+    padding: 12px;
+    margin-right: 0px;
 }
 
 .fas.fa-heart
@@ -286,27 +241,8 @@ input[type="button" i].romantique
     font-size: 17px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
-    padding-top: 12px;
-    padding-right: 14px;
-    padding-left: 14px;
-    padding-bottom: 12px;
-    margin-left: 20px;
-}
-
-input[type="button" i].animaux
-{
-    color: black;
-    background-color: rgba(255,255,255,0);
-    font-family: "Raleway-ExtraBold";
-    font-size: 16px;
-    border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 3px 30px 30px 3px;
-    padding: 11px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 16px;
-    border-left: none;
-    margin-left: -15px;
+    padding: 12px;
+    margin-right: 0px;
 }
 
 .fas.fa-dog
@@ -315,9 +251,6 @@ input[type="button" i].animaux
     font-size: 17px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
-    padding-top: 12px;
-    padding-right: 14px;
-    padding-left: 14px;
-    padding-bottom: 12px;
-    margin-left: 20px;
+    padding: 12px;
+    margin-right: 0px;
 }
