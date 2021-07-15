@@ -20,12 +20,18 @@
     font-family: "Raleway";
 }
 
-nav, h1, h2
+nav
 {
     font-family: "Raleway-Bold";
 }
 
-
+h2
+{
+    font-family: "Raleway-ExtraBold";
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
 
                                                     /*Header*/
 .containerheader
@@ -49,8 +55,6 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
-
-
 .logo
 {
     float: none;
@@ -59,15 +63,9 @@ flex-wrap: wrap;
     padding-top: 40px;
 }
 
-h2
-{
-    font-size: 22px;
-    margin-bottom: 7px;
-}
-
 p
 {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 20px;
     margin-top: 7px;
 }
@@ -82,16 +80,11 @@ form
 
 .formulaire1
 {
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 34px;
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-ExtraBold";
+    font-weight: 100;
     border: none;
-}
-
-.formulaire2
-{
-    font-size: 15px;
-    font-family: "Raleway";
 }
 
 ::placeholder
@@ -104,7 +97,7 @@ form
     font-size: 18px;
 }
 
-input[type="button" i].formulaire2
+.formulaire2
 {
     color: white;
     background-color: #0065fc;
@@ -116,6 +109,7 @@ input[type="button" i].formulaire2
     border: none;
     letter-spacing: 0.05em;
     margin-left: 5px;
+    font-size: 15px;
 }
 
                                                      /*Menu*/
@@ -169,24 +163,26 @@ a:hover:not(.inscrire)
 .filtres
 {
     margin-top: 35px;
-    font-size: 16px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: content;
+    margin-left: 10px;
 }
 
 .filtre
 {
     font-family: "Raleway-ExtraBold";
-    padding: 10px;
+    padding-top: 10px;
     padding-right: 15px;
-    padding-left: 28px;
-    margin-left: -18px;
-    font-size: 16px;
+    margin-top: 1px;
+    margin-right: 5px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
 }
-
+                                                                /*Contenus des boutons*/
 .animaux, .romantique, .familial, .economique
 {
     color: black;
@@ -196,10 +192,11 @@ a:hover:not(.inscrire)
     border: rgba(92,91,91,0.23) solid 2px;
     border-radius: 3px 30px 30px 3px;
     border-left: none;
-    padding: 10px;
-    padding-right: 15px;
-    padding-left: 28px;
-    margin-left: -18px; 
+    padding-right: 25px;
+    margin-left: -19px;
+    padding-left: 33px;
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
 .animaux
 {
@@ -222,7 +219,7 @@ a:hover:not(.inscrire)
 {
     order: 1;
 }
-
+                                                                   /*Blocs des boutons*/
 .eco, .famil, .roman, .anim
 {
     display: flex;
@@ -231,6 +228,7 @@ a:hover:not(.inscrire)
     max-height: 42px;
     margin-right: 20px;
     margin-bottom: 8px;
+    margin-left: 7px;
 }
 
 
@@ -247,17 +245,18 @@ a:hover:not(.inscrire)
 .fas.fa-child
 {
     color: #0065fc;
-    font-size: 17px;
+    font-size: 18px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
-    padding: 12px;
+    padding: 15px;
+    padding-top: 13px;
     margin-right: 0px;
 }
 
 .fas.fa-heart
 {
     color: #0065fc;
-    font-size: 17px;
+    font-size: 19px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
     padding: 12px;
@@ -267,7 +266,7 @@ a:hover:not(.inscrire)
 .fas.fa-dog
 {
     color: #0065fc;
-    font-size: 17px;
+    font-size: 19px;
     background-color: rgba(222,235,255,1);
     border-radius: 100%;
     padding: 12px;
@@ -276,3 +275,16 @@ a:hover:not(.inscrire)
 
                                                     /*Bulle info*/
 
+.fas.fa-info
+{
+    color: #0065fc;
+    font-size: 10px;
+    border: silver 1px solid;
+    border-radius: 100%;
+    padding : 9px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin-top: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
