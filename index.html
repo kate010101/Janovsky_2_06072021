@@ -19,7 +19,7 @@
 <ul>
    <li><a href="#hebergements">Hébergements</a></li>
    <li><a href="#activites">Activités</a></li>
-   <li><a href="inscription.html" class="inscrire">S'inscrire</a></li>
+   <li><a href="#" class="inscrire">S'inscrire</a></li>
 </ul>
          </nav>
       </div>
@@ -34,17 +34,17 @@
                                                                           <!--Formulaire de recherche-->  
          <form method="post" action="traitement.php">
          <label for="localisation"><i class="fa fa-map-marker" aria-hidden="true"></i></label><input type="search" name="localisation" id="localisation" class="formulaire1" placeholder="Marseille, France"/>
-         <input type="button" value="Rechercher" name="localisation" class="formulaire2"/>
+         <button type="button" name="localisation" class="formulaire2"/>Rechercher</button>
          </form>
       </div>
                                                                            <!--Filtres-->
 
 <div class="filtres">
    <div><p class="filtre">Filtres</p></div>
-   <div class="eco"><i class="fas fa-money-bill-wave"></i><button onclick="window.location.href = 'https://fr.w3docs.com/';" class="economique">Économique</button></div>
-   <div class="famil"><i class="fas fa-child"></i><button onclick="window.location.href = 'https://fr.w3docs.com/';" class="familial">Familial</button></div>
-   <div class="roman"><i class="fas fa-heart"></i><button onclick="window.location.href = 'https://fr.w3docs.com/';" class="romantique">Romantique</button></div>
-   <div class="anim"><i class="fas fa-dog"></i><button onclick="window.location.href = 'https://fr.w3docs.com/';" class="animaux">Animaux autorisés</button></div>
+   <div class="eco"><i class="fas fa-money-bill-wave"></i><button name="economique" type="button" class="economique">Économique</button></div>
+   <div class="famil"><i class="fas fa-child"></i><button name="familial" type="button" class="familial">Familial</button></div>
+   <div class="roman"><i class="fas fa-heart"></i><button name="romantique" type="button" class="romantique">Romantique</button></div>
+   <div class="anim"><i class="fas fa-dog"></i><button name="animaux" type="button" class="animaux">Animaux autorisés</button></div>
 </div>
 <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
  </div>
@@ -52,28 +52,53 @@
 </header>
 
                                                                            <!--Section 1-->
-<section id="hebergements">
-   <h2>Hébergements à Marseille</h2>
-<div class="container2">
-   <div class="bloc1"><a href="images/hebergements/nonredim/marcus-loke-WQJvWU_HZFo-unsplash.jpg"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'auberge la Cannebière"/></a>
+
+<section>
+<article class="container2">
+   <h2 id="hebergements">Hébergements à Marseille</h2>
+<div class="container3">
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'auberge la Cannebière"/>
       <h4>Auberge la Cannebière</h4><p>Nuit à partir de <span class="gras">25€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
-   </div>
-   <div class="bloc1"><a href="images/hebergements/nonredim/fred-kleber-gTbaxaVLvsg-unsplash.jpg"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de L'hotel du port"/></a>
+   </a></div>
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de L'hotel du port"/>
       <h4>Hôtel du port</h4><p>Nuit à partir de <span class="gras">52€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-   </div>
-   <div class="bloc1"><a href="images/hebergements/nonredim/reisetopia-B8WIgxA_PFU-unsplash.jpg"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hôtel Les mouettes"/></a>
+   </a></div>
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hôtel Les mouettes"/>
       <h4>Hôtel Les mouettes</h4><p>Nuit à partir de <span class="gras">76€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
-   </div>
-   <div class="bloc1"><a href="images/hebergements/nonredim/annie-spratt-Eg1qcIitAuA-unsplash.jpg"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hôtel de la mer"/></a>
+   </a></div>
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hôtel de la mer"/>
       <h4>Hôtel de la mer</h4><p>Nuit à partir de <span class="gras">46€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i><i class="fas fa-star" style="color: silver;"></i></div>
-   </div>
-   <div class="bloc1"><a href="images/hebergements/nonredim/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'auberge Le panier"/></a>
+   </a></div>
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'auberge Le panier"/>
       <h4>Auberge Le Panier</h4><p>Nuit à partir de <span class="gras">23€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
-   </div>
-   <div class="bloc1"><a href="images/hebergements/nonredim/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hôtel chez Amina"/></a>
+   </a></div>
+   <div class="bloc1"><a href="#"><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hôtel chez Amina"/>
       <h4>Hôtel chez Amina</h4><p>Nuit à partir de <span class="gras">96€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-   </div>
-</div> 
+   </a></div> 
+</div>
+   <p class="plus"><a href="#">Afficher plus</a></p>
+</article>
+                                                                           <!--Aside Section 1-->
+   <aside class="container4"><h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'auberge la Cannebière"/>
+         <h4>Auberge la Cannebière</h4><p>Nuit à partir de <span class="gras">25€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
+      </a></div>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de L'hotel du port"/>
+         <h4>Hôtel du port</h4><p>Nuit à partir de <span class="gras">52€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      </a></div>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hôtel Les mouettes"/>
+         <h4>Hôtel Les mouettes</h4><p>Nuit à partir de <span class="gras">76€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
+      </a></div>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hôtel de la mer"/>
+         <h4>Hôtel de la mer</h4><p>Nuit à partir de <span class="gras">46€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i><i class="fas fa-star" style="color: silver;"></i></div>
+      </a></div>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'auberge Le panier"/>
+         <h4>Auberge Le Panier</h4><p>Nuit à partir de <span class="gras">23€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: silver;"></i></div>
+      </a></div>
+      <div class="bloc2"><a href="#"><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hôtel chez Amina"/>
+         <h4>Hôtel chez Amina</h4><p>Nuit à partir de <span class="gras">96€</span></p><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      </a></div> 
+   </aside>
 </section>
 
 </body>

@@ -1,4 +1,4 @@
-                                                      /*Police*/
+                                                                     /*Police*/
 
 @font-face {
     font-family: "Raleway";
@@ -29,11 +29,11 @@ h2
 {
     font-family: "Raleway-ExtraBold";
     font-weight: 100;
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 7px;
 }
 
-                                                    /*Header*/
+                                                                    /*Header*/
 .containerheader
 {
 margin-top: 8px;
@@ -65,13 +65,13 @@ flex-wrap: wrap;
 
 p
 {
-    font-size: 15px;
+    font-size: 0.98em;
     margin-bottom: 20px;
     margin-top: 7px;
 }
 
 
-                                                    /*Formulaire*/
+                                                                    /*Formulaire*/
 
 form
 {
@@ -89,6 +89,7 @@ form
 
 ::placeholder
 {
+    font-size: 17px;
     color: black;
 }
 
@@ -108,11 +109,11 @@ form
     font-weight: bold;
     border: none;
     letter-spacing: 0.05em;
-    margin-left: 5px;
+    margin-left: 12px;
     font-size: 15px;
 }
 
-                                                     /*Menu*/
+                                                                         /*Menu*/
 nav ul
 {
 list-style-type: none;
@@ -153,13 +154,13 @@ nav a
     margin-left: 10px;
 }
 
-a:hover:not(.inscrire)
+nav a:hover:not(.inscrire)
 {
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
 
-                                                        /*Filtres*/
+                                                                        /*Filtres*/
 .filtres
 {
     margin-top: 35px;
@@ -252,7 +253,7 @@ a:hover:not(.inscrire)
 {
     order: 1;
 }
-                                                                   /*Blocs boutons filtres*/
+                                                                      /*Blocs boutons filtres*/
 .eco, .famil, .roman, .anim
 {
     display: flex;
@@ -306,7 +307,7 @@ a:hover:not(.inscrire)
     margin-right: 0px;
 }
 
-                                                    /*Bulle info*/
+                                                                            /*Bulle info*/
 
 .fas.fa-info
 {
@@ -334,16 +335,28 @@ h4
 
 section
 {
+    display: flex;
     margin-left: 135px;
-    margin-top: 60px;
+    margin-top: 40px;
     line-height: 60px;
+    border: 2px solid black;
+    min-width: 900px;
 }
 
 .container2
 {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 850px;
+    border: 2px solid rgb(247, 41, 41);
+    width: 70%;
+}
+
+.container3
+{
+    border: rgb(45, 74, 204) 2px solid;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .gras
@@ -377,4 +390,77 @@ section
     font-size: 12px;
     margin-left: 10px;
     margin-bottom: 8px;
+}
+
+.bloc1 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc1 a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.plus a
+{
+    color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Raleway-ExtraBold";
+    font-weight: 400;
+}
+
+.plus
+{
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+                                                                            /*Aside Section 1*/
+ .container4
+{
+    min-width: 300px;
+    width: 30%;
+    border: 2px solid rgb(77, 161, 28);
+}
+
+.fas.fa-chart-line
+{
+    margin-left: 80px;
+}
+
+.bloc2
+{
+    border: rgba(220,220,220,0.8) solid 1px;
+    box-shadow: rgba(220,220,220,0.6) 3px 3px;
+    width: 240px;
+    padding-left: 5px;
+    line-height: 1px;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.bloc2 p
+{
+    padding-left: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.bloc2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc2 a:hover
+{
+    text-decoration: none;
+    color: black;
 }
