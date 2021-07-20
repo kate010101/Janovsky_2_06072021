@@ -378,10 +378,16 @@ section h2
     box-shadow: rgba(220,220,220,0.6) 3px 3px;
     padding-left: 5px;
     line-height: 1px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px 20px 20px 20px;
     padding-top: 3px;
     margin-bottom: 30px;
     margin-right: 30px;
+    padding-right: 5px;
+}
+
+.bloc1 img
+{
+    border-radius: 15px 15px 0px 0px;
 }
 
 .bloc1 p
@@ -450,15 +456,17 @@ section h2
     width: 330px;
     height: 140px;
     padding-left: 5px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px 20px 20px 20px;
     padding-top: 4px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .bloc2 img
 {
     float: left;
     margin-right: 20px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .bloc2 h4
