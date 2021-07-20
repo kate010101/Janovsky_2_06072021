@@ -333,21 +333,21 @@ h4
     font-size: 15px;
 }
 
-section
+.section1
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 135px;
-    margin-top: 40px;
-    line-height: 60px;
-    border: 2px solid black;
+    margin-top: 60px;
     min-width: 900px;
+    margin-bottom: -40px;
 }
 
-section h2
+.section1 h2
 {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 .container2
@@ -356,13 +356,11 @@ section h2
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 85px;
-    border: 2px solid rgb(247, 41, 41);
     width: 67%;
 }
 
 .container3
 {
-    border: rgb(45, 74, 204) 2px solid;
     display: flex;
     flex-wrap: wrap;
 }
@@ -431,6 +429,7 @@ section h2
 {
     margin-top: -10px;
     margin-left: 8px;
+    padding-top: 25px;
 }
 
                                                                             /*Aside Section 1*/
@@ -438,9 +437,7 @@ section h2
 {
     min-width: 300px;
     width: 30%;
-    margin-top: -85px;
-    border: 2px solid rgb(77, 161, 28);
-    align-self: unset;
+    margin-top: -64px;
 }
 
 .fas.fa-chart-line
@@ -482,7 +479,8 @@ section h2
     padding-left: 10px;
     font-size: 13px;
     margin: -15px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
+    line-height: 60px;
 }
 
 .bloc2 a
@@ -495,4 +493,35 @@ section h2
 {
     text-decoration: none;
     color: black;
+}
+
+                                                                            /*Section 2*/
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    line-height: 60px;
+    border: 2px solid yellow;
+    min-width: 900px;
+}
+
+.section2 h2
+{
+    width: 500px;
+}
+
+.bloc3 img
+{
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 1px;
+}
+
+.bloc3
+{
+    border: rgba(220,220,220,0.8) solid 0.5px;
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 500px;
 }
