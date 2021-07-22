@@ -498,11 +498,8 @@ h4
                                                                             /*Section 2*/
 .section2
 {
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin-left: 100px;
-    border: 2px solid yellow;
     min-width: 900px;
 }
 
@@ -510,6 +507,13 @@ h4
 {
     width: 500px;
     margin-bottom: 20px;
+}
+
+.container5
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bloc3 img
@@ -523,6 +527,8 @@ h4
     border-radius: 20px 20px 20px 20px;
     width: 300px;
     height: 450px;
+    margin-bottom: -180px;
+    margin-right: 40px;
 }
 
 .bloc3 a
@@ -542,3 +548,74 @@ h4
     font-family: "Raleway-ExtraBold";
     margin-left: 10px;
 }
+
+.bloc31 img
+{
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 1px;
+}
+
+.bloc31
+{
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 450px;
+    margin-bottom: -225px;
+}
+
+.bloc31 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc31 a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc31 h4
+{
+    font-family: "Raleway-ExtraBold";
+    padding-left: 20px;
+    border: rgba(220,220,220,0.9) solid 1px;
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.bloc32 img
+{
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 1px;
+}
+
+.bloc32
+{
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 450px;
+    margin-bottom: -182px;
+    border-bottom: rgba(220,220,220,0.9) solid 1px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.bloc32 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc32 a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc32 h4
+{
+    font-family: "Raleway-ExtraBold";
+    margin-left: 10px;
+}
+                                                                            /*Footer*/
