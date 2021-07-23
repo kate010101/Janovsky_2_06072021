@@ -113,6 +113,10 @@ form
     font-size: 15px;
 }
 
+.formulaire2:hover
+{
+    box-shadow: silver 4px 4px;
+}
                                                                          /*Menu*/
 nav ul
 {
@@ -198,6 +202,8 @@ nav a:hover:not(.inscrire)
     padding-left: 33px;
     margin-top: -2px;
     margin-bottom: -2px;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
 
 .economique:hover
@@ -265,6 +271,10 @@ nav a:hover:not(.inscrire)
     margin-left: 7px;
 }
 
+.filtres a
+{
+    text-decoration: none;
+}
 
 .fa-money-bill-wave
 {
@@ -285,6 +295,7 @@ nav a:hover:not(.inscrire)
     padding: 15px;
     padding-top: 13px;
     margin-right: 0px;
+    padding-bottom: 12px;
 }
 
 .fas.fa-heart
@@ -547,6 +558,8 @@ h4
 {
     font-family: "Raleway-ExtraBold";
     margin-left: 10px;
+    margin-top: 15px;
+    padding-bottom: 15px;
 }
 
 .bloc31 img
@@ -579,6 +592,8 @@ h4
 {
     font-family: "Raleway-ExtraBold";
     padding-left: 20px;
+    padding-bottom: 15px;
+    margin-top: 15px;
     border: rgba(220,220,220,0.9) solid 1px;
     border-top: none;
     border-radius: 0px 0px 30px 30px;
@@ -597,7 +612,6 @@ h4
     width: 300px;
     height: 450px;
     margin-bottom: -182px;
-    border-bottom: rgba(220,220,220,0.9) solid 1px;
     border-radius: 0px 0px 30px 30px;
 }
 
@@ -613,9 +627,72 @@ h4
     color: black;
 }
 
+.bloctitre
+{
+    border-bottom: rgba(220,220,220,0.8) solid 1px;
+    border-radius: 30px 30px 30px 30px;
+    height: 22px;
+    padding-right: 10px;
+}
+
 .bloc32 h4
 {
     font-family: "Raleway-ExtraBold";
     margin-left: 10px;
 }
+
                                                                             /*Footer*/
+footer
+{
+    margin-left: 100px;
+    margin-bottom: 60px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 11px;
+}
+
+.propos a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.propos
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h5
+{
+    font-family: "Raleway-ExtraBold";
+    font-size: 17px;
+}
+
+.hebergements2
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 235px;
+}
+
+.hebergements2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.assistance
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 290px;
+}
+
+.assistance a
+{
+    text-decoration: none;
+    color: black;
+}

@@ -34,17 +34,17 @@
                                                                           <!--Formulaire de recherche-->  
          <form method="post" action="traitement.php">
          <label for="localisation"><i class="fa fa-map-marker" aria-hidden="true"></i></label><input type="search" name="localisation" id="localisation" class="formulaire1" placeholder="Marseille, France"/>
-         <button type="button" name="localisation" class="formulaire2">Rechercher</button>
+         <button type="submit" name="localisation" class="formulaire2">Rechercher</button>
          </form>
       </div>
                                                                            <!--Filtres-->
 
 <div class="filtres">
    <div><p class="filtre">Filtres</p></div>
-   <div class="eco"><i class="fas fa-money-bill-wave"></i><button name="economique" type="button" class="economique">Économique</button></div>
-   <div class="famil"><i class="fas fa-child"></i><button name="familial" type="button" class="familial">Familial</button></div>
-   <div class="roman"><i class="fas fa-heart"></i><button name="romantique" type="button" class="romantique">Romantique</button></div>
-   <div class="anim"><i class="fas fa-dog"></i><button name="animaux" type="button" class="animaux">Animaux autorisés</button></div>
+   <div class="eco"><a href="#"><i class="fas fa-money-bill-wave"></i><button name="economique" type="button" class="economique">Économique</button></a></div>
+   <div class="famil"><a href="#"><i class="fas fa-child"></i><button name="familial" type="button" class="familial">Familial</button></a></div>
+   <div class="roman"><a href="#"><i class="fas fa-heart"></i><button name="romantique" type="button" class="romantique">Romantique</button></a></div>
+   <div class="anim"><a href="#"><i class="fas fa-dog"></i><button name="animaux" type="button" class="animaux">Animaux autorisés</button></a></div>
 </div>
 <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
  </div>
@@ -102,7 +102,7 @@
    <div><div class="bloc32"><a href="#"><img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues"/>
       <h4>Fort de Pomègues</h4></a></div>
       <div class="bloc3"><a href="#"><img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo des Îles du Frioul"/>
-      <h4>Îles du Frioul</h4></a></div>
+      <h4 class="bloctitre">Îles du Frioul</h4></a></div>
    </div><div class="bloc3"><a href="#"><img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo du Parc National des Calanques"/>
       <h4>Parc National des Calanques</h4></a></div>  
    <div><div class="bloc31"><a href="#"><img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde"/>
@@ -112,9 +112,25 @@
    </div>
 </div>
 </section>
-
                                                                            <!--Footer-->
-
+<footer>
+   <div class="propos">
+      <h5>A propos</h5>
+      <p><a href="#">Fonctionnement du site</a></p>
+      <p><a href="#">Conditions générales de vente</a></p>
+      <p><a href="#">Données et confidentialité</a></p>
+   </div>
+   <div class="hebergements2">
+      <h5>Nos hébergements</h5>
+      <p><a href="#">Charte qualité</a></p>
+      <p><a href="#">Soumettre votre hôtel</a></p>
+   </div>
+   <div class="assistance">
+      <h5>Assistance</h5>
+      <p><a href="#">Centre d'aide</a></p>
+      <p><a href="#">Nous contacter</a></p>
+   </div>
+</footer>
 
 </body>
 
