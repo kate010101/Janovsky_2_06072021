@@ -33,36 +33,6 @@ h2
     margin-bottom: 7px;
 }
 
-                                                                    /*Header*/
-.containerheader
-{
-margin-top: 8px;
-margin-left: 100px;
-flex-wrap: wrap;
-}
-
-.menu
-{
-    order: 2;
-    flex-wrap: wrap;
-    padding-right: 110px;
-    padding-left: 110px;
-}
-
-.presentation
-{
-    order: 1;
-    flex-wrap: wrap;
-}
-
-.logo
-{
-    float: none;
-    margin-left: 0px;
-    padding-bottom: 15px;
-    padding-top: 40px;
-}
-
 p
 {
     font-size: 0.98em;
@@ -70,6 +40,26 @@ p
     margin-top: 7px;
 }
 
+
+                                                                    /*Header*/
+.containerheader
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.presentation
+{
+    flex-wrap: wrap;
+}
+
+.info
+{
+    margin-left: 100px;
+}
 
                                                                     /*Formulaire*/
 
@@ -117,11 +107,18 @@ form
 {
     box-shadow: silver 4px 4px;
 }
-                                                                         /*Menu*/
+                                                                         /*Logo et Menu*/
+
+nav
+{
+    display: flex;
+    align-items: baseline;
+}
+
 nav ul
 {
-list-style-type: none;
-display: flex;
+    list-style-type: none;
+    display: flex;
 }
 
 li
@@ -129,21 +126,49 @@ li
    font-size: 40px;
 }
 
-nav
+.poursmartphone
 {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-right: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.poursmartphone2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo img
+{
+    margin-top: 40px;
+    width: 25%;
+    height: 25%;
 }
 
 .menu
 {
-    margin-left: 250px;
+    
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-left: 0px;
     margin-top: 2px;
 }
 
-.inscrire
+.inscrire a
 {
     color: #0065fc;
     font-family: "Raleway-Bold";
+    padding-left: 25px;
+    text-decoration: none;
+    margin-left: 10px;
 }
 
 nav a
@@ -158,10 +183,10 @@ nav a
     margin-left: 10px;
 }
 
-nav a:hover:not(.inscrire)
+nav a:hover
 {
-    color: #0065fc;
-    border-top: 2px solid #0065fc;
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
 }
 
                                                                         /*Filtres*/
@@ -392,6 +417,7 @@ h4
     margin-bottom: 30px;
     margin-right: 30px;
     padding-right: 5px;
+    flex-wrap: wrap;
 }
 
 .bloc1 img
@@ -696,3 +722,109 @@ h5
     text-decoration: none;
     color: black;
 }
+
+/*Smartphones*/
+@media all and (min-width: 0px) and (max-width: 767px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+/*Header*/
+    .li1, .li2
+    {
+        font-size: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        margin-left: -25%;
+        padding-bottom: 7%;
+    }
+
+    li
+    {
+        margin-right: 45%;
+        margin-top: 10%;
+    }
+
+    li:hover
+    {
+        color: #0065FC;
+    }
+
+    li a:hover
+    {
+        border-top: none;
+        border-bottom: #0065FC 6px solid;
+    }
+
+    a
+    {
+        font-size: 250%;
+    }
+
+    .containerheader
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .poursmartphone
+    {
+        border: saddlebrown 3px solid;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 100%;
+    }
+
+    .poursmartphone2
+    {
+        border: #1c28ca 2px solid;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .menu
+    {
+        border: solid 2px greenyellow;
+    }
+
+    .inscrire
+    {
+        border: black 2px solid;
+        align-self: flex-end;
+        margin-left: 122%;
+        margin-top: -16%;
+    }
+
+    .logo
+    {
+        border: hotpink 3px solid;
+        margin-top: 0px;
+    }
+
+    .logo img
+    {
+        width: 68%;
+        height: 68%;
+    }
+
+/*Présentation*/
+    .presentation h2
+    {
+        font-size: 300%;
+    }
+
+    .presentation p
+    {
+        font-size: 250%;
+    }
+}
+
+
