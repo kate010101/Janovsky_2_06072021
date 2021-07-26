@@ -149,8 +149,8 @@ li
 .logo img
 {
     margin-top: 40px;
-    width: 25%;
-    height: 25%;
+    width: 90px;
+    height: 45px;
 }
 
 .menu
@@ -236,7 +236,7 @@ nav a:hover
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-left: none;
-    box-shadow: silver 4px 4px;
+    box-shadow: #c7c4c4 2px 4px;
 }
 
 .romantique:hover
@@ -244,7 +244,7 @@ nav a:hover
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-left: none;
-    box-shadow: silver 4px 4px;
+    box-shadow: #c7c4c4 2px 4px;
 }
 
 .familial:hover
@@ -252,7 +252,7 @@ nav a:hover
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-left: none;
-    box-shadow: silver 4px 4px;
+    box-shadow: #c7c4c4 2px 4px;
 }
 
 .animaux:hover
@@ -260,7 +260,7 @@ nav a:hover
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-left: none;
-    box-shadow: silver 4px 4px;
+    box-shadow: #c7c4c4 2px 4px;
 }
 
 .animaux
@@ -409,7 +409,7 @@ h4
 .bloc1
 {
     border: rgba(220,220,220,0.8) solid 1px;
-    box-shadow: rgba(220,220,220,0.6) 3px 3px;
+    box-shadow: 1px 3px 5px 0px #c7c4c4;
     padding-left: 5px;
     line-height: 1px;
     border-radius: 20px 20px 20px 20px;
@@ -486,7 +486,7 @@ h4
 .bloc2
 {
     border: rgba(220,220,220,0.8) solid 1px;
-    box-shadow: rgba(220,220,220,0.6) 3px 3px;
+    box-shadow: 1px 3px 5px 0px #c7c4c4;
     width: 330px;
     height: 140px;
     padding-left: 5px;
@@ -724,7 +724,7 @@ h5
 }
 
 /*Smartphones*/
-@media all and (min-width: 0px) and (max-width: 767px)
+@media all and (max-device-width: 480px)
 {
     body
     {
@@ -738,17 +738,18 @@ h5
 /*Header*/
     .li1, .li2
     {
-        font-size: 100%;
-        padding-left: 30%;
-        padding-right: 30%;
-        margin-left: -25%;
-        padding-bottom: 7%;
+        font-size: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: -120px;
+        padding-bottom: 30px;
+        margin-right: 200px;
     }
 
     li
     {
-        margin-right: 45%;
-        margin-top: 10%;
+        margin-right: 45px;
+        margin-top: 50px;
     }
 
     li:hover
@@ -762,9 +763,9 @@ h5
         border-bottom: #0065FC 6px solid;
     }
 
-    a
+    .poursmartphone2 a
     {
-        font-size: 250%;
+        font-size: 40px;
     }
 
     .containerheader
@@ -778,8 +779,9 @@ h5
         border: saddlebrown 3px solid;
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        height: 100%;
+        height: 300px;
+        width: 800px;
+        align-items: flex-start;
     }
 
     .poursmartphone2
@@ -788,6 +790,9 @@ h5
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        padding-left: 70px;
+        margin-top: -150px;
+        margin-left: 0px;
     }
 
     .menu
@@ -798,9 +803,8 @@ h5
     .inscrire
     {
         border: black 2px solid;
-        align-self: flex-end;
-        margin-left: 122%;
-        margin-top: -16%;
+        margin-left: 600px;
+        margin-top: 60px;
     }
 
     .logo
@@ -811,19 +815,19 @@ h5
 
     .logo img
     {
-        width: 68%;
-        height: 68%;
+        width: 250px;
+        height: 125px;
     }
 
 /*Présentation*/
     .presentation h2
     {
-        font-size: 300%;
+        font-size: 60px;
     }
 
     .presentation p
     {
-        font-size: 250%;
+        font-size: 25px;
     }
 }
 
