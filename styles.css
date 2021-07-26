@@ -88,6 +88,11 @@ form
     font-size: 18px;
 }
 
+.fas.fa-search
+{
+    opacity: 0;
+}
+
 .formulaire2
 {
     color: white;
@@ -776,7 +781,6 @@ h5
 
     .poursmartphone
     {
-        border: saddlebrown 3px solid;
         display: flex;
         flex-wrap: wrap;
         height: 300px;
@@ -786,7 +790,6 @@ h5
 
     .poursmartphone2
     {
-        border: #1c28ca 2px solid;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
@@ -795,21 +798,14 @@ h5
         margin-left: 0px;
     }
 
-    .menu
-    {
-        border: solid 2px greenyellow;
-    }
-
     .inscrire
     {
-        border: black 2px solid;
         margin-left: 600px;
         margin-top: 60px;
     }
 
     .logo
     {
-        border: hotpink 3px solid;
         margin-top: 0px;
     }
 
@@ -827,8 +823,101 @@ h5
 
     .presentation p
     {
-        font-size: 25px;
+        margin-top: 30px;
+        font-size: 30px;
     }
+
+/*Champ de recherche*/
+
+    .fa-map-marker:before
+    {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .formulaire1
+    {
+        font-size: 50px;
+        padding-left: 60px;
+        margin-left: 5px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    ::placeholder
+    {
+        font-size: 50px;
+    }
+
+    .formulaire2
+    {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 50px 50px 50px 50px;
+    height: 140px;
+    width: 140px;
+    border: none;
+    font-size: 50px;
+    margin: -10px;
+    }
+
+    .fas.fa-search
+    {
+        opacity: 1;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        padding-left: 40px;
+        padding-top: 41px;
+    }
+
+/*Filtres*/
+
+    .filtres p
+    {
+        font-size: 45px;
+        width: 600px;
+    }
+
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .eco, .famil, .roman, .anim
+    {
+        margin-right: 40px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        align-items: center;
+    }
+
+    .fas.fa-money-bill-wave
+    {
+        font-size: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 23px;
+        padding-bottom: 70px;
+    }
+    .economique, .familial, .romantique, .animaux
+    {
+        font-size: 45px;
+        font-family: "Raleway-Bold";
+        font-weight: bold;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-right: 40px;
+        border-left: none;
+        border-bottom: silver 4px solid;
+        border-top: silver 4px solid;
+        border-right: silver 4px solid;
+        border-radius: 0px 60px 60px 0px;
+        padding-left: 50px;
+        margin-left: -30px;
+    }
+
+
 }
 
 
