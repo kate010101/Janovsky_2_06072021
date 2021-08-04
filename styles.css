@@ -581,45 +581,54 @@ h4
 .section2
 {
     flex-wrap: wrap;
-    margin-left: 100px;
-    min-width: 900px;
 }
 
 .section2 h2
 {
     width: 500px;
     margin-bottom: 20px;
+    flex-basis: 100%;
+    position: relative;
 }
 
 .container5
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.container5 a
+{
+    display: block;
 }
 
 .bloc3 img
 {
     border-radius: 20px 20px 0px 0px;
     padding-left: 1px;
+    width: 100%;
+    max-height: 201px;
+    position: relative;
 }
 
 .bloc3
 {
     border-radius: 20px 20px 20px 20px;
-    width: 300px;
-    height: 450px;
-    margin-bottom: -180px;
-    margin-right: 40px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
-.bloc3 a
+.bloc3 a, .bloc31 a, .bloc30 a
 {
     text-decoration: none;
     color: black;
 }
 
-.bloc3 a:hover
+.bloc3 a:hover, .block31 a:hover, .block32 a:hover
 {
     text-decoration: none;
     color: black;
@@ -637,26 +646,20 @@ h4
 {
     border-radius: 20px 20px 0px 0px;
     padding-left: 1px;
+    padding-left: 1px;
+    position: relative;
+    width: 100%;
+    min-height: 480px;
 }
 
 .bloc31
 {
     border-radius: 20px 20px 20px 20px;
-    width: 300px;
-    height: 450px;
-    margin-bottom: -225px;
-}
-
-.bloc31 a
-{
-    text-decoration: none;
-    color: black;
-}
-
-.bloc31 a:hover
-{
-    text-decoration: none;
-    color: black;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
 .bloc31 h4
@@ -671,31 +674,29 @@ h4
 
 }
 
-.bloc32 img
+.bloc30 img
 {
     border-radius: 20px 20px 0px 0px;
     padding-left: 1px;
+    position: relative;
+    width: 100%;
+    min-height: 480px;
 }
 
-.bloc32
+.bloc30
 {
     border-radius: 20px 20px 20px 20px;
-    width: 300px;
-    height: 450px;
-    margin-bottom: -182px;
-    border-radius: 0px 0px 30px 30px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
-.bloc32 a
+.bloc30 h4
 {
-    text-decoration: none;
-    color: black;
-}
-
-.bloc32 a:hover
-{
-    text-decoration: none;
-    color: black;
+    font-family: "Raleway-ExtraBold";
+    margin-left: 10px;
 }
 
 .bloctitre
@@ -706,28 +707,22 @@ h4
     padding-right: 10px;
 }
 
-.bloc32 h4
-{
-    font-family: "Raleway-ExtraBold";
-    margin-left: 10px;
-}
-
-.img101, .img88, .img77, .img103, .img11, .img22, .img33, .img44, .img55, .img66
-{
-    width: 0px;
-    height: 0px
-}
 
                                                                             /*Footer*/
 footer
 {
-    margin-left: 100px;
     margin-bottom: 60px;
-    margin-top: -25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    line-height: 11px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.propos
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .propos a, .hebergements2 a, .assistance a
@@ -753,14 +748,12 @@ h5
 {
     font-size: 15px;
     font-weight: 600;
-    margin-left: 235px;
 }
 
 .assistance
 {
     font-size: 15px;
     font-weight: 600;
-    margin-left: 290px;
 }
 
 
@@ -1194,7 +1187,7 @@ header, .section1, .section2, .containerheader, .container2, .container3, .conta
         width: 322px;
         height: 400px;
     } 
-    .bloc32
+    .bloc30
     {
         width: 320px;
         height: 400px;
@@ -1209,7 +1202,7 @@ header, .section1, .section2, .containerheader, .container2, .container3, .conta
         box-shadow: none;
         margin-bottom: -175px;
     } 
-    .bloc3 h4, .bloc32 h4, .bloc31 h4
+    .bloc3 h4, .bloc30 h4, .bloc31 h4
     {
         font-size: 15px;
         margin-left: 15px;
