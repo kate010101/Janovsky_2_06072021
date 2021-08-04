@@ -31,7 +31,7 @@ nav
     font-family: "Raleway-Bold";
 }
 
-h2
+h2, h1
 {
     font-family: "Raleway-ExtraBold";
     font-weight: 100;
@@ -53,8 +53,8 @@ p
     display: flex;
     flex-direction: column;
     margin-top: 8px;
-    margin-left: 100px;
     flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 .presentation
@@ -62,10 +62,7 @@ p
     flex-wrap: wrap;
 }
 
-.info
-{
-    margin-left: 100px;
-}
+
 
                                                                     /*Formulaire*/
 
@@ -521,7 +518,7 @@ h4
 .container4 .bloc2 .image-pop
 {
     float: left;
-    width: 100px;
+    width: 135px;
     overflow: hidden;
     height: 140px;
     border-top-left-radius: 20px;
@@ -531,7 +528,12 @@ h4
 .container4 .bloc2 .descr-pop
 {
     float: left;
-    width: calc( 100% - 100px);
+    width: calc( 100% - 135px);
+}
+
+.container4 .bloc2 .img1
+{
+    height: 100%;
 }
 
 .bloc2
@@ -559,9 +561,6 @@ h4
 {
     padding-left: 10px;
     font-size: 13px;
-    margin: -15px;
-    margin-bottom: 25px;
-    line-height: 60px;
 }
 
 .bloc2 a
@@ -731,16 +730,17 @@ footer
     line-height: 11px;
 }
 
-.propos a
+.propos a, .hebergements2 a, .assistance a
 {
     text-decoration: none;
     color: black;
 }
 
-.propos
+.propos li, .hebergements2 li, .assistance li
 {
     font-size: 15px;
     font-weight: 600;
+    list-style-type: none;
 }
 
 h5
@@ -756,12 +756,6 @@ h5
     margin-left: 235px;
 }
 
-.hebergements2 a
-{
-    text-decoration: none;
-    color: black;
-}
-
 .assistance
 {
     font-size: 15px;
@@ -769,11 +763,7 @@ h5
     margin-left: 290px;
 }
 
-.assistance a
-{
-    text-decoration: none;
-    color: black;
-}
+
 /*Tablette*/
 @media all and (min-width: 998px) and (max-width: 1072px)
 {
