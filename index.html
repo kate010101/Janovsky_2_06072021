@@ -34,32 +34,48 @@
 
 <!--Formulaire de recherche-->
             <div>
-               <form method="post" action="traitement.php">
-                  <label for="localisation"><i class="fa fa-map-marker" aria-hidden="true"></i></label><input
-                     type="search" name="localisation" id="localisation" class="formulaire1"
-                     placeholder="Marseille, France" />
-                  <button type="submit" name="localisation" class="formulaire2"><i
-                        class='fas fa-search'></i>Rechercher</button>
+               <form method="post" action="traitement.php" class="form">
+                  <label for="localisation" class="form0"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+                  <input type="search" name="localisation" id="localisation" class="formulaire1" placeholder="Marseille, France" />
+                  <button type="submit" name="localisation" class="formulaire2">Rechercher</button>
+                  <button type="submit" name="localisation" class="icon-search"><i class='fas fa-search'></i></button>
                </form>
             </div>
-         </div>
 <!--Filtres-->
 
          <div class="filtres">
             <div>
                <p class="filtre">Filtres</p>
             </div>
-            <div class="eco"><i class="fas fa-money-bill-wave"></i><button name="economique" type="button"
-                  class="economique">Économique</button></div>
-            <div class="famil"><i class="fas fa-child"></i><button name="familial" type="button"
-                  class="familial">Familial</button></div>
-            <div class="roman"><i class="fas fa-heart"></i><button name="romantique" type="button"
-                  class="romantique">Romantique</button></div>
-            <div class="anim"><i class="fas fa-dog"></i><button name="animaux" type="button" class="animaux">Animaux
-                  autorisés</button></div>
+            <div class="eco">
+               <button name="economique" type="button" class="economique">
+                  <i class="fas fa-money-bill-wave"></i>
+                  Économique
+               </button>
+            </div>
+            <div class="famil">
+               <button name="familial" type="button" class="familial">
+                  <i class="fas fa-child"></i>
+                  Familial
+               </button>
+            </div>
+            <div class="roman">
+               <button name="romantique" type="button" class="romantique">
+                  <i class="fas fa-heart"></i>
+                  Romantique
+               </button>
+            </div>
+            <div class="anim">
+               <button name="animaux" type="button" class="animaux">
+                  <i class="fas fa-dog"></i>
+                  Animaux autorisés
+               </button>
+            </div>
          </div>
-         <p class="info"><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
+         <p class="info">
+            <i class="fas fa-info"></i> 
+            Plus de 500 logements sont disponibles dans cette ville
+         </p>
    
 
 <!--Section 1-->

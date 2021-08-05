@@ -118,38 +118,48 @@ nav a:hover
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
-
+                                                                    /*Présentation*/
+.presentation
+{
+    width: 100%;
+    padding-left: 50px;
+}    
 
                                                                     /*Formulaire*/
-
 form
 {
-    margin-left: 18px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+}
+
+.fa.fa-map-marker
+{
+    background-color: #f2f2f2;
+    height: 105%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.form0
+{
+    width: 53px;
 }
 
 .formulaire1
 {
     font-size: 16px;
-    margin-left: 34px;
     font-family: "Raleway-ExtraBold";
-    font-weight: 100;
     border: none;
+    padding-left: 20px;
 }
 
 ::placeholder
 {
     font-size: 17px;
     color: black;
-}
-
-.fa.fa-map-marker
-{
-    font-size: 18px;
-}
-
-.fas.fa-search
-{
-    opacity: 0;
 }
 
 .formulaire2
@@ -163,7 +173,6 @@ form
     font-weight: bold;
     border: none;
     letter-spacing: 0.05em;
-    margin-left: 12px;
     font-size: 15px;
 }
 
@@ -172,46 +181,80 @@ form
     box-shadow: silver 4px 4px;
 }
 
+.icon-search
+{
+    display: none;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0px 13px 13px 0px;
+    width: 5%;
+    border: none;
+    font-size: 15px;
+}
+
+.icon-search:hover
+{
+    box-shadow: silver 4px 4px;
+}
                                                                         /*Filtres*/
 .filtres
 {
     margin-top: 35px;
+    margin-bottom: 30px;
     font-size: 17px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: content;
-    margin-left: 10px;
+    align-items: baseline;
+    justify-content: space-evenly;
+    width: 65%;
+    padding-left: 50px;
+}
+
+.filtres a
+{
+    text-decoration: none;
 }
 
 .filtre
 {
     font-family: "Raleway-ExtraBold";
-    padding-top: 10px;
-    padding-right: 15px;
-    margin-top: 1px;
-    margin-right: 5px;
-    font-size: 17px;
-    display: flex;
-    flex-direction: row;
+
 }
-                                                                /*Contenus des filtres*/
+
+.animaux
+{
+    order: 5;
+}
+.romantique
+{
+    order: 4;
+}
+.familial
+{
+    order: 3;
+}
+.economique
+{
+    order: 2;
+}
+.filtre
+{
+    order: 1;
+}
+
 .animaux, .romantique, .familial, .economique
 {
+    display: flex;
+    align-items: center;
     color: black;
     background-color: rgba(255,255,255,0);
     font-family: "Raleway-ExtraBold";
     font-size: 16px;
     border: rgba(92,91,91,0.23) solid 2px;
-    border-radius: 3px 30px 30px 3px;
+    border-radius: 30px;
     border-left: none;
-    padding-right: 25px;
-    margin-left: -19px;
-    padding-left: 33px;
-    margin-top: -2px;
-    margin-bottom: -2px;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding: 0px 20px 0px 0px;
 }
 
 .economique:hover
@@ -246,85 +289,27 @@ form
     box-shadow: #c7c4c4 2px 4px;
 }
 
-.animaux
-{
-    min-width: 190px;
-    order: 5;
-}
-.romantique
-{
-    order: 4;
-}
-.familial
-{
-    order: 3;
-}
-.economique
-{
-    order: 2;
-}
-.filtre
-{
-    order: 1;
-}
-                                                                      /*Blocs boutons filtres*/
 .eco, .famil, .roman, .anim
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    max-height: 42px;
-    margin-right: 20px;
     margin-bottom: 8px;
-    margin-left: 7px;
 }
 
-.filtres a
+.fa-money-bill-wave, .fas.fa-child, .fas.fa-heart, .fas.fa-dog
 {
-    text-decoration: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #deebff;
+    color: #0065ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
-.fa-money-bill-wave
-{
-    color: #0065fc;
-    font-size: 17px;
-    background-color: rgba(222,235,255,1);
-    border-radius: 100%;
-    padding: 12px;
-    margin-right: 0px;
-}
-
-.fas.fa-child
-{
-    color: #0065fc;
-    font-size: 18px;
-    background-color: rgba(222,235,255,1);
-    border-radius: 100%;
-    padding: 15px;
-    padding-top: 13px;
-    margin-right: 0px;
-    padding-bottom: 12px;
-}
-
-.fas.fa-heart
-{
-    color: #0065fc;
-    font-size: 19px;
-    background-color: rgba(222,235,255,1);
-    border-radius: 100%;
-    padding: 12px;
-    margin-right: 0px;
-}
-
-.fas.fa-dog
-{
-    color: #0065fc;
-    font-size: 19px;
-    background-color: rgba(222,235,255,1);
-    border-radius: 100%;
-    padding: 12px;
-    margin-right: 0px;
-}
 
                                                                             /*Bulle info*/
 
@@ -332,14 +317,20 @@ form
 {
     color: #0065fc;
     font-size: 10px;
+    width: 20px;
+    height: 20px;
     border: silver 1px solid;
     border-radius: 100%;
-    padding : 9px;
-    padding-top: 6px;
-    padding-bottom: 5px;
-    margin-top: 17px;
-    margin-left: 8px;
-    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.info
+{
+    display: flex;
+    padding-left: 50px;
 }
 
                                                                             /*Section 1*/
@@ -867,7 +858,7 @@ h5
         font-size: 17px;
         margin-left: 0px;
     }
-
+    
     .formulaire1
     {
         font-size: 16px;
@@ -884,6 +875,7 @@ h5
 
     .formulaire2
     {
+    display: none;
     color: white;
     background-color: #0065fc;
     border-radius: 10px 10px 10px 10px;
@@ -896,10 +888,6 @@ h5
     .fas.fa-search
     {
         opacity: 1;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 8px;
-        padding-top: 16px;
     }
 
 /*Filtres*/
