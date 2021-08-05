@@ -17,8 +17,8 @@
 
 body
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 *
@@ -48,20 +48,76 @@ p
 
 
                                                                     /*Header*/
-.containerheader
+header
 {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    margin-top: 8px;
-    flex-wrap: wrap;
-    align-content: space-evenly;
+    align-items: center;
 }
 
-.presentation
+.logo img
+{
+    width: 90px;
+    height: 45px;
+}
+
+.logo
+{
+    margin-left: 20px;
+    padding: 25px 30px 25px 30px;
+    flex: 1;
+}
+                                                                    /*Menu*/
+.menu
 {
     flex-wrap: wrap;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 2px;
 }
 
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li
+{
+    position: relative;
+    padding: 40px 30px 40px 30px;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+
+.inscrire a
+{
+    color: #0065fc;
+    font-family: "Raleway-Bold";
+    text-decoration: none;
+    padding: 22px 11px 0px 66px;
+    margin-right: 20px;
+    display: block;
+}
+
+nav a
+{
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
 
 
                                                                     /*Formulaire*/
@@ -114,87 +170,6 @@ form
 .formulaire2:hover
 {
     box-shadow: silver 4px 4px;
-}
-                                                                         /*Logo et Menu*/
-
-nav
-{
-    display: flex;
-    align-items: baseline;
-}
-
-nav ul
-{
-    list-style-type: none;
-    display: flex;
-}
-
-li
-{
-   font-size: 40px;
-}
-
-.poursmartphone
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    padding-right: 80px;
-    height: 80px;
-    margin-bottom: 15px;
-}
-
-.poursmartphone2
-{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.logo img
-{
-    margin-top: 40px;
-    width: 90px;
-    height: 45px;
-}
-
-.menu
-{
-    
-    flex-wrap: wrap;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-top: 2px;
-}
-
-.inscrire a
-{
-    color: #0065fc;
-    font-family: "Raleway-Bold";
-    padding-left: 25px;
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-nav a
-{
-    color: rgb(92, 91, 91);
-    text-decoration: none;
-    font-size: 16px;
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-nav a:hover
-{
-    color: #0065FC;
-    border-top: #0065FC 2px solid;
 }
 
                                                                         /*Filtres*/
