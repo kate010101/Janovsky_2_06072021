@@ -19,8 +19,6 @@ body
 {
     margin: 0px;
     padding: 0px;
-    padding-left: 2%;
-    width: 95%;
 }
 
 *
@@ -123,7 +121,7 @@ nav a:hover
                                                                     /*Présentation*/
 .presentation
 {
-    width: 100%;
+    width: 96%;
     padding-left: 50px;
 }    
 
@@ -467,7 +465,7 @@ h4
 .plus
 {
     margin-top: -10px;
-    margin-left: 8px;
+    margin-left: 52px;
     padding-top: 25px;
 }
 
@@ -483,7 +481,7 @@ h4
 .fas.fa-chart-line
 {
     position: absolute;
-    right: 31px;
+    right: 0px;
     font-size: 22px;
 }
 
@@ -492,7 +490,7 @@ h4
     float: left;
     width: 135px;
     overflow: hidden;
-    height: 140px;
+    height: 135px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -506,6 +504,9 @@ h4
 .container4 .bloc2 .img1
 {
     height: 100%;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
 }
 
 .bloc2
@@ -553,11 +554,15 @@ h4
 .section2
 {
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .section2 h2
 {
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
     flex-basis: 100%;
     position: relative;
@@ -566,7 +571,7 @@ h4
 .container5
 {
     display: flex;
-    flex-direction: row;
+    width: 100%;
     justify-content: space-evenly;
     align-content: space-evenly;
 }
@@ -575,38 +580,35 @@ h4
     display: block;
 }
 
-.bloc3 img
+.bloc301 img
 {
     border-radius: 20px 20px 0px 0px;
     padding-left: 1px;
-    width: 100%;
-    max-height: 201px;
     position: relative;
 }
 
-.bloc3
+.bloc301
 {
     border-radius: 20px 20px 20px 20px;
     padding-top: 3px;
     margin-bottom: 30px;
     padding-right: 5px;
     flex-wrap: wrap;
-    max-width: 300px;
 }
 
-.bloc3 a, .bloc31 a, .bloc30 a
+.bloc31 a, .bloc30 a, .bloc301 a, .bloc302 a, .bloc303 a, .bloc304 a
 {
     text-decoration: none;
     color: black;
 }
 
-.bloc3 a:hover, .block31 a:hover, .block32 a:hover
+.block31 a:hover, .block32 a:hover, .bloc301 a:hover, .bloc302 a:hover, .bloc303 a:hover, .bloc304 a:hover
 {
     text-decoration: none;
     color: black;
 }
 
-.bloc3 h4
+.bloc301 h4, .bloc302 h4, .bloc303 h4, .bloc304 h4, .bloc30 h4
 {
     font-family: "Raleway-ExtraBold";
     margin-left: 10px;
@@ -620,8 +622,6 @@ h4
     padding-left: 1px;
     padding-left: 1px;
     position: relative;
-    width: 100%;
-    min-height: 480px;
 }
 
 .bloc31
@@ -631,7 +631,6 @@ h4
     margin-bottom: 30px;
     padding-right: 5px;
     flex-wrap: wrap;
-    max-width: 300px;
 }
 
 .bloc31 h4
@@ -651,8 +650,7 @@ h4
     border-radius: 20px 20px 0px 0px;
     padding-left: 1px;
     position: relative;
-    width: 100%;
-    min-height: 480px;
+    object-fit: none;
 }
 
 .bloc30
@@ -661,8 +659,6 @@ h4
     padding-top: 3px;
     margin-bottom: 30px;
     padding-right: 5px;
-    flex-wrap: wrap;
-    max-width: 300px;
 }
 
 .bloc30 h4
