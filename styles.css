@@ -19,8 +19,8 @@ body
 {
     margin: 0px;
     padding: 0px;
-    padding-left: 50px;
-    width: 93%;
+    padding-left: 2%;
+    width: 95%;
 }
 
 *
@@ -350,13 +350,13 @@ h4
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1237px;
+    max-width: 1260px;
     margin: auto;
 }
 
 .section1 .heb1
 {
-    flex-basis: 73%;
+    flex-basis: 70%;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
@@ -389,6 +389,7 @@ h4
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: -6%;
 }
 
 .container3
@@ -414,8 +415,8 @@ h4
     margin-bottom: 30px;
     padding-right: 5px;
     flex-wrap: wrap;
-    width: 28%;
-    min-width: 254px;
+    width: 25%;
+    min-width: 235px;
 }
 
 
@@ -476,6 +477,7 @@ h4
     flex-basis: 27%;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin-left: 3%;
 }
 
 .fas.fa-chart-line
