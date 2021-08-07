@@ -348,15 +348,21 @@ h4
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1260px;
+    max-width: 1336px;
     margin: auto;
 }
 
 .section1 .heb1
 {
-    flex-basis: 70%;
+    flex-basis: 66%;
     background-color: #f2f2f2;
     border-radius: 20px;
+    padding-top: 1%;
+}
+
+h2#hebergements
+{
+    margin-left: 4%;
 }
 
 .section1 .heb1 .container3 .image-heb
@@ -387,7 +393,6 @@ h4
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: -6%;
 }
 
 .container3
@@ -415,6 +420,7 @@ h4
     flex-wrap: wrap;
     width: 25%;
     min-width: 235px;
+    background-color: white;
 }
 
 
@@ -464,18 +470,17 @@ h4
 
 .plus
 {
-    margin-top: -10px;
-    margin-left: 52px;
-    padding-top: 25px;
+    margin-left: 4%;
 }
 
                                                                             /*Aside Section 1*/
  .container4
 {
-    flex-basis: 27%;
+    flex-basis: 25%;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-left: 3%;
+    margin-left: 2%;
+    padding: 1% 3% 0% 3%;
 }
 
 .fas.fa-chart-line
@@ -520,6 +525,7 @@ h4
     padding-top: 4px;
     margin-bottom: 30px;
     max-width: 382px;
+    background-color: white;
 }
 
 .bloc2 h4
