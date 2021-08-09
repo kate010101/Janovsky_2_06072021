@@ -27,56 +27,46 @@
       </div>
    </header>
 <!--Présentation-->
-   <div class="presentation">
-      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-         <p>En plein centre ville ou en pleine nature</p>
-   </div>
+   <div class="intro">   
+      <div class="presentation">
+         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+      </div>
 
 <!--Formulaire de recherche-->
-            <div>
-               <form method="post" action="traitement.php" class="form">
-                  <label for="localisation" class="form0"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
-                  <input type="search" name="localisation" id="localisation" class="formulaire1" placeholder="Marseille, France" />
-                  <button type="submit" name="localisation" class="formulaire2">Rechercher</button>
-                  <button type="submit" name="localisation" class="icon-search"><i class='fas fa-search'></i></button>
-               </form>
-            </div>
+      <div>
+         <form method="post" action="traitement.php" class="form">
+            <label for="localisation" class="form0"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+            <input type="search" name="localisation" id="localisation" class="formulaire1" placeholder="Marseille, France" />
+            <button type="submit" name="localisation" class="formulaire2">Rechercher</button>
+            <button type="submit" name="localisation" class="icon-search"><i class='fas fa-search'></i></button>
+         </form>
+      </div>
 <!--Filtres-->
 
-         <div class="filtres">
-            <div>
-               <p class="filtre">Filtres</p>
-            </div>
-            <div class="eco">
-               <button name="economique" type="button" class="economique">
-                  <i class="fas fa-money-bill-wave"></i>
-                  Économique
-               </button>
-            </div>
-            <div class="famil">
-               <button name="familial" type="button" class="familial">
-                  <i class="fas fa-child"></i>
-                  Familial
-               </button>
-            </div>
-            <div class="roman">
-               <button name="romantique" type="button" class="romantique">
-                  <i class="fas fa-heart"></i>
-                  Romantique
-               </button>
-            </div>
-            <div class="anim">
-               <button name="animaux" type="button" class="animaux">
-                  <i class="fas fa-dog"></i>
-                  Animaux autorisés
-               </button>
-            </div>
+      <div class="filtres">
+         <div>
+            <p class="filtre">Filtres</p>
          </div>
+         <div class="eco">
+            <button name="economique" type="button" class="economique">
+               <i class="fas fa-money-bill-wave"></i>Économique</button>
+         </div>
+         <div class="famil">
+               <button name="familial" type="button" class="familial"><i class="fas fa-child"></i>Familial</button>
+         </div>
+         <div class="roman">
+            <button name="romantique" type="button" class="romantique"><i class="fas fa-heart"></i>Romantique</button>
+         </div>
+         <div class="anim">
+            <button name="animaux" type="button" class="animaux"><i class="fas fa-dog"></i>Animaux autorisés</button>
+         </div>
+      </div>
          <p class="info">
             <i class="fas fa-info"></i> 
             Plus de 500 logements sont disponibles dans cette ville
          </p>
-   
+   </div>
 
 <!--Section 1-->
 
@@ -281,40 +271,52 @@
       <div class="container5">
          <div class="bloc30">
             <a href="#">
-               <img src="images/activites/small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Vieux Port" />
+               <div class="image-act">
+                  <img src="images/activites/small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Vieux Port" />
+               </div>
                <h4>Vieux Port</h4>
             </a>
          </div>
          <div class="bloc-double">
             <div class="bloc301">
                <a href="#">
-                  <img src="images/activites/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
+                  <div class="image-act2">
+                     <img src="images/activites/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
+                  </div>
                   <h4>Fort de Pomègues</h4>
                </a>
             </div>
             <div class="bloc302">
                <a href="#">
-                  <img src="images/activites/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo des Îles du Frioul" />
-                  <h4 class="bloctitre">Îles du Frioul</h4>
+                  <div class="image-act3">
+                     <img src="images/activites/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo des Îles du Frioul" />
+                  </div>
+                  <h4>Îles du Frioul</h4>
                </a>
             </div>
          </div>
          <div class="bloc31">
             <a href="#">
-               <img src="images/activites/small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo du Parc National des Calanques" />
+               <div class="image-act">
+                  <img src="images/activites/small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo du Parc National des Calanques" />
+               </div>   
                <h4>Parc National des Calanques</h4>
             </a>
          </div>
          <div class="bloc-double">
             <div class="bloc303">
                <a href="#">
-                  <img src="images/activites/small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
+                  <div class="image-act4">
+                     <img src="images/activites/small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
+                  </div>   
                   <h4>Notre-Dame-de-la-Garde</h4>
                </a>
             </div>
             <div class="bloc304">
                <a href="#">
-                  <img src="images/activites/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
+                  <div class="image-act5">
+                     <img src="images/activites/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
+                  </div>   
                   <h4>Parc Longchamp</h4>
                </a>
             </div>

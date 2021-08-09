@@ -63,7 +63,7 @@ header
 
 .logo
 {
-    margin-left: 20px;
+    margin-left: 4%;
     padding: 25px 30px 25px 30px;
     flex: 1;
 }
@@ -90,6 +90,10 @@ nav ul
     font-size: 40px;
 }
 
+.inscrire
+{
+    margin-right: 2%;
+}
 
 .inscrire a
 {
@@ -121,8 +125,8 @@ nav a:hover
                                                                     /*Présentation*/
 .presentation
 {
-    width: 96%;
-    padding-left: 50px;
+    width: 94%;
+    padding-left: 6%;
 }    
 
                                                                     /*Formulaire*/
@@ -130,7 +134,7 @@ form
 {
     display: flex;
     flex-wrap: nowrap;
-    padding-left: 50px;
+    padding-left: 6%;
 }
 
 .fa.fa-map-marker
@@ -208,7 +212,7 @@ form
     align-items: baseline;
     justify-content: space-evenly;
     width: 65%;
-    padding-left: 50px;
+    padding-left: 4%;
 }
 
 .filtres a
@@ -330,7 +334,7 @@ form
 .info
 {
     display: flex;
-    padding-left: 50px;
+    padding-left: 6%;
 }
 
                                                                             /*Section 1*/
@@ -473,6 +477,11 @@ h2#hebergements
     margin-left: 4%;
 }
 
+.intro
+{
+    margin-bottom: 30px;
+}
+
                                                                             /*Aside Section 1*/
  .container4
 {
@@ -564,6 +573,7 @@ h2#hebergements
     flex-direction: row;
     max-width: 1400px;
     margin: auto;
+    margin-top: 1%;
 }
 
 .section2 h2
@@ -571,13 +581,13 @@ h2#hebergements
     margin-bottom: 20px;
     flex-basis: 100%;
     position: relative;
+    padding-left: 2%;
 }
 
 .container5
 {
     display: flex;
     justify-content: space-evenly;
-    align-content: space-evenly;
     flex-direction: row;
     max-width: 1400px;
 }
@@ -586,17 +596,59 @@ h2#hebergements
     display: block;
 }
 
-.bloc301 img
+.section2 .container5 .image-act .img
 {
-    border-radius: 20px 20px 0px 0px;
-    padding-left: 1px;
     position: relative;
     width: 100%;
-    height: 200px;
-    object-fit: none;
+    object-fit: cover;
+    height: 100%;
 }
 
-.bloc301, .bloc302, .bloc303, .bloc304
+.section2 .container5 .image-act
+{
+    height: 417px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section2 .container5 .image-act2 
+{
+    height: 172px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section2 .container5 .image-act3 
+{
+    height: 125px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section2 .container5 .image-act4 
+{
+    height: 143px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section2 .container5 .image-act5
+{
+    height: 143px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bloc301 img
+{
+    width: 100%;
+    height: 214px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    object-fit: cover;
+}
+
+.section2 .container5 .bloc301, .bloc302, .bloc303, .bloc304
 {
     position: relative;
     flex-wrap: wrap;
@@ -646,11 +698,10 @@ h2#hebergements
 .bloc30 img
 {
     border-radius: 20px 20px 0px 0px;
-    padding-left: 1px;
     position: relative;
     object-fit: cover;
     width: 100%;
-    height: 480px;
+    height: 475px;
 }
 
 .bloc30
@@ -670,6 +721,10 @@ h2#hebergements
 .bloc-double
 {
     position: relative;
+    flex-basis: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .bloc302 img
@@ -683,8 +738,6 @@ h2#hebergements
 {
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
 }
 
 .bloc304 img
@@ -698,18 +751,32 @@ h2#hebergements
                                                                             /*Footer*/
 footer
 {
-    margin-bottom: 60px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #f2f2f2;
+    align-items: baseline;
+}
+
+footer ul
+{
+    padding-left: 0px;
 }
 
 .propos
 {
-    display: flex;
-    flex-direction: column;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 3%;
+    line-height: 30px;
+    padding-bottom: 2%;
+    flex-basis: 30%;
 }
 
 .propos a, .hebergements2 a, .assistance a
@@ -725,22 +792,28 @@ footer
     list-style-type: none;
 }
 
-h5
+footer h5
 {
     font-family: "Raleway-ExtraBold";
     font-size: 17px;
+    margin: 0;
+    padding: 0;
 }
 
 .hebergements2
 {
     font-size: 15px;
     font-weight: 600;
+    line-height: 30px;
+    flex-basis: 30%;
 }
 
 .assistance
 {
     font-size: 15px;
     font-weight: 600;
+    line-height: 30px;
+    flex-basis: 30%;
 }
 
 
