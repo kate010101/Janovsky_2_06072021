@@ -970,20 +970,22 @@ footer h5
 
     footer
     {
-        flex-direction: column;
+        flex-direction: row;
         align-items: baseline;
         margin: 6%;
+        justify-content: space-between;
     }
     
     .propos, .hebergements2, .assistance
     {
         margin-bottom: 5%;
         padding-bottom: 0px;
+        min-width: 255px;
     }
 }
 
 /*Tablette Petites*/
-@media all and (min-width: 480px) and (max-width: 616px)
+@media all and (min-width: 480px) and (max-width: 615px)
 {
     body
     {
@@ -1048,15 +1050,17 @@ footer h5
 
     footer
     {
-        flex-direction: column;
+        flex-direction: row;
         align-items: baseline;
         margin: 6%;
+        justify-content: space-between;
     }
-
+    
     .propos, .hebergements2, .assistance
     {
-        margin-bottom: 4%;
+        margin-bottom: 5%;
         padding-bottom: 0px;
+        min-width: 255px;
     }
 }
 
