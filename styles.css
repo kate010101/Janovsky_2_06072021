@@ -26,6 +26,12 @@ body
     font-family: "Raleway";
 }
 
+.max-width
+{
+    max-width: 1336px;
+    margin: auto;
+}
+
 nav
 {
     font-family: "Raleway-Bold";
@@ -62,36 +68,38 @@ header
 
 .logo
 {
-    margin-left: 4%;
-    padding: 25px 30px 25px 30px;
-    flex: 1;
+    padding-left: 0;
+    width: 120px;
 }
                                                                     /*Menu*/
 .menu
 {
-    flex-wrap: wrap;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-top: 2px;
+    flex-basis: calc( 100% - 120px - var(--width-inscrire));
 }
 
 nav ul
 {
     list-style-type: none;
-    display: flex;
+    display: table;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .menu li
 {
-    position: relative;
-    padding: 40px 30px 40px 30px;
+    float: right;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     font-size: 40px;
 }
 
 .inscrire
 {
-    margin-right: 2%;
+    margin: 0;
+    width: var(--width-inscrire);
+    text-align: right;
 }
 
 .inscrire a
@@ -99,9 +107,10 @@ nav ul
     color: #0065fc;
     font-family: "Raleway-Bold";
     text-decoration: none;
-    padding: 22px 11px 0px 66px;
-    margin-right: 20px;
+    margin: 0;
+    padding: 0;
     display: block;
+    padding-top: 19px;
 }
 
 nav a
@@ -109,11 +118,9 @@ nav a
     color: rgb(92, 91, 91);
     text-decoration: none;
     font-size: 16px;
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
     font-weight: bold;
-    margin-left: 10px;
+    padding: 15px 30px;
+    margin: 0;
 }
 
 nav a:hover
@@ -351,8 +358,6 @@ h4
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1336px;
-    margin: auto;
 }
 
 .section1 .heb1
@@ -817,7 +822,7 @@ footer h5
 
 
 /*Grande Tablette*/
-@media all and (min-width: 975px) and (max-width: 1072px)
+@media all and (min-width: 992px) and (max-width: 1072px)
 {
     .filtres
     {
@@ -880,48 +885,11 @@ footer h5
 }
 
 /*Tablette Moyenne*/
-@media all and (min-width: 615px) and (max-width: 975px)
+@media all and (min-width: 601px) and (max-width: 992px)
 {
-    header 
-    {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 5%;
-    }
-
-    .logo
-    {   
-        padding: 25px 30px 17px 30px;
-        flex-basis: 100%;
-    }
-
     nav a:hover
     {
        border-top: none;
-    }
-
-    nav ul
-    {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .menu
-    {
-        display: flex;
-        flex-basis: 70%;
-        justify-content: space-around;
-    }
-
-    .menu li
-    {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .inscrire
-    {
-        flex-basis: 28%;
     }
 
     .intro
@@ -984,88 +952,9 @@ footer h5
     }
 }
 
-/*Tablette Petites*/
-@media all and (min-width: 480px) and (max-width: 615px)
-{
-    body
-    {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-right: 0px;
-    }
-
-    header
-    {
-        flex-wrap: wrap;
-    }
-
-    .menu
-    {
-        order: 3;
-        padding: 0px;
-        margin: 0px;
-        flex-basis: 100%;
-    }
-
-    nav a:hover
-    {
-       border-top: none;
-    }
-
-    nav ul
-    {
-        flex-basis: 100%;
-    }
-
-
-    .menu li 
-    {
-        padding: 0px;
-        list-style-type: none;
-        font-size: 20px;
-        flex-basis: 50%;
-    }
-    
-    .section1, .section2
-    {
-        justify-content: center;
-    }
-
-    .plus
-    {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .section1 h2, .section2 h2
-    {
-        justify-content: center;
-        display: flex;
-        margin-top: 10%;
-    }
-
-    footer
-    {
-        flex-direction: row;
-        align-items: baseline;
-        margin: 6%;
-        justify-content: space-between;
-    }
-    
-    .propos, .hebergements2, .assistance
-    {
-        margin-bottom: 5%;
-        padding-bottom: 0px;
-        min-width: 255px;
-    }
-}
 
 /*Smartphones*/
-@media all and (min-width: 0px) and (max-width: 480px)
+@media all and (max-width: 600px)
 {
     body
     {
@@ -1080,8 +969,8 @@ footer h5
 /*Header*/
     header
     {
-        flex-wrap: wrap;
-        align-items: center;
+        display: block;
+        position: relative;
     }
 
     .logo
@@ -1095,13 +984,16 @@ footer h5
         order: 3;
         padding: 0px;
         margin: 0px;
-        margin-top: 7%;
-        margin-bottom: 6%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     nav a
     {
-        padding-bottom: 6%;
+        display: block;
+        padding: 5px 0px;
+        margin: 0;
+        text-align: center;
     }
 
     nav a:hover
@@ -1112,8 +1004,8 @@ footer h5
 
     nav ul
     {
-        flex-basis: 100%;
-        margin: 0;
+        display: table;
+        width: 100%;
         padding: 0;
     }
 
@@ -1123,8 +1015,18 @@ footer h5
         padding: 0px;
         list-style-type: none;
         font-size: 20px;
-        flex-basis: 50%;
+        float: left;
+        width: 50%;
     }
+
+    .inscrire
+    {
+        top: 28px;
+        position: absolute;
+        right: 0;
+        margin: 0;
+    }
+
 /*Intro*/
     .formulaire2
     {
@@ -1253,3 +1155,9 @@ footer h5
         margin-bottom: 4%;
     }
 }    
+
+
+:root
+{
+--width-inscrire:102px
+}
