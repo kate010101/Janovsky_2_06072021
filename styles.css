@@ -1077,10 +1077,17 @@ footer h5
         padding-right: 0px;
         padding-right: 0px;
     }
-
+/*Header*/
     header
     {
         flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .logo
+    {
+        margin: 0px;
+        padding: 5% 1% 0% 4%;
     }
 
     .menu
@@ -1088,7 +1095,13 @@ footer h5
         order: 3;
         padding: 0px;
         margin: 0px;
-        flex-basis: 100%;
+        margin-top: 7%;
+        margin-bottom: 6%;
+    }
+
+    nav a
+    {
+        padding-bottom: 6%;
     }
 
     nav a:hover
@@ -1100,6 +1113,8 @@ footer h5
     nav ul
     {
         flex-basis: 100%;
+        margin: 0;
+        padding: 0;
     }
 
 
@@ -1109,5 +1124,132 @@ footer h5
         list-style-type: none;
         font-size: 20px;
         flex-basis: 50%;
+    }
+/*Intro*/
+    .formulaire2
+    {
+        display: none;
+    }
+
+    .icon-search
+    {
+        display: flex;
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-search:hover
+    {
+        box-shadow: none;
+    }
+
+    .filtre 
+    {
+        order: 1;
+        flex-basis: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .bas100
+    {
+        flex-basis: 100%;
+    }
+
+    .filtres
+    {
+        width: auto;
+        justify-content: space-between;
+    }
+/*Section 1*/
+    .section1
+    {
+        justify-content: center;
+    }
+
+    .container4
+    {
+        order: 1;
+        flex-basis: 75%;
+    }
+
+    .section1 .heb1
+    {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    h2#hebergements
+    {
+        align-self: flex-start;
+    }
+
+    .container3
+    {
+        justify-content: center;
+    }
+
+    .bloc1
+    {
+        min-width: 74%;
+        margin-bottom: 3%;
+        box-shadow: none;
+    }
+
+    .plus
+    {
+        align-self: flex-start;
+    }
+/*Section 2*/
+    .container5
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section2 .container5 .image-act, .section2 .container5 .image-act3, .section2 .container5 .image-act4, .section2 .container5 .image-act5
+    {
+        height: 152px;
+    }
+
+    .bloc-double
+    {
+        min-width: 90%;
+    }
+
+    .bloc30 img, .bloc31 img
+    {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .bloc30, .bloc31
+    {
+        flex-basis: 90%;
+    }
+
+    .bloc302 img
+    {
+        height: 150%;
+    }
+
+    .section2
+    {
+        margin-bottom: 7%;
+    }
+/*Footer*/
+    footer
+    {
+        flex-direction: column;
+    }
+
+    .propos, .hebergements2, .assistance
+    {
+        margin-bottom: 4%;
     }
 }    
