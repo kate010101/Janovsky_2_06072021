@@ -462,6 +462,7 @@ h2#hebergements
     font-size: 12px;
     margin-left: 10px;
     margin-bottom: 8px;
+    display: flex;
 }
 
 .bloc1 a
@@ -550,7 +551,7 @@ h2#hebergements
     padding-top: 4px;
     margin-bottom: 30px;
     max-width: 382px;
-    min-width: 273px;
+    min-width: 289px;
     background-color: white;
 }
 
@@ -580,6 +581,11 @@ h2#hebergements
 {
     text-decoration: none;
     color: black;
+}
+
+.bloc2 .stars
+{
+    padding-top: 38px;
 }
 
                                                                             /*Section 2*/
@@ -767,9 +773,6 @@ footer
 {
     margin-bottom: 40px;
     margin-top: 4%;
-    width: 92%;
-    margin-left: 4%;
-    margin-right: 4%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
